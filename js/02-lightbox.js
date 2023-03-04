@@ -28,8 +28,8 @@ function addMarckup() {
 addMarckup();
 
 var lightbox = new SimpleLightbox(".gallery a", {
-    captionSelector: "img",
-    captionType: "attr",
-    captionsData: "alt",
-    captionDelay: 250,
+  captionSelector: "img",
+  captionType: "attr",
+  captionsData: "alt",
+  captionDelay: 250,
 });
